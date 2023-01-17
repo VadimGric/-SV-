@@ -1,130 +1,56 @@
 html {
     scroll-behavior: smooth;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .navigation {
     display: flex;
     justify-content: space-between;
     padding: 0;
     align-items: center;
-   
-  
-   
-
 }
-
 .header {
-   
     background: rgba(110, 108, 98, 0.384);
-    
     border-radius: 20px;
-    
     height: 120px;
 }
-
 .list {
-    list-style: none;
-    
-   
-   
-    
+    list-style: none;  
 }
-
 .menu {
-    
     display: block;
     position: absolute;
     top: 30px;
-    right: 150px;
+    right: 50px;
     font-family: Audiowide;
     border: 2px solid rgb(255, 238, 255);
     border-radius: 5%;
     color: aliceblue;
     background: rgb(0, 0, 0);
-    font-size: 60px;
-    
-    
+    font-size: 60px;  
 }
-.menu:hover {
-    
+.menu:hover { 
     transition: 0.5s;
     color: rgba(109, 98, 121, 0.753);
 }
-
 .hiden_menu {
     display: none;
     margin-left: -40px;
-    list-style: none; 
-   
-    
+    list-style: none;  
 }
-
 .hiden_menu a {
     color: aliceblue;
     text-decoration: none;
-
-    
-    
-    
- 
 }
-
 .hiden_menu a:hover {
     transition: 0.5s;
     color: rgb(155, 155, 155);
-   
 }
-
 .list li:hover>ul {
     display: block;
-    
-  
-    
-
 }
-
-
-
-
 .name {
     font-size: 100px;
     border-bottom: 1px coral solid;
-    
-
 }
-
 .position {
     font-size: 40px;
     margin-top: -50px;
@@ -134,123 +60,71 @@ html {
     border: none;
     margin-left: 20px;
 }
-
 .avatar {
-    width: 400px;
-    
-    
-    
+    width: 400px; 
 }
-
-
-.name_photo {
-    
-    
-    
-}
-
 .name_photo .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 500px;
 }
-
-
-.name_block {
-    
-
-}
-
 h2 {
     font-size: 60px;
     font-weight: 200;
     text-shadow: 5px -4px 6px rgba(72,  44,  44, 0.42);
     font-family: 'Bebas Neue', cursive;
     border-bottom: 1px coral solid;
-    
-    
 }
-
-
-
 .me {
     font-size: 40px;
     text-indent: 40px;
     text-align: justify;
-    
 }
 .container .me_2 {
    margin-left: -1070px;
    font-size: 40px;
 }
-
 .nutt {
     height: 70.47px;
     margin-top: 26px;
-
 }
-
 .education_list {
     font-size: 30px;
     list-style: none;
     padding: 0;
-    
-
 }
 
 .education_list li {
     display: flex;
     align-items: center;
-    margin-left: -700px;
-    
 }
-
-
 .icons_1 {
     width: 60px;
     margin-right: 20px;
 }
-
-
-
 .contact_link {
     text-decoration: none;
-    color: black;
-    
+    color: black; 
 }
-
-
-
-
 footer .container {
     display: flex;
     justify-content: space-around;
     font-size: 40px;
-    
-    
 }
-
 .about_me{
     clip-path: polygon(0.00% 12.16%,66.11% 12.07%,79.42% 0.00%,91.88% 12.03%,100.00% 12.15%,100.00% 100.00%,91.88% 100%,79.48% 88.23%,66.07% 100%,0.00% 100%);
     background: rgba(236, 229, 202, 0.425);
     border-radius: 20px;
     padding-top: 240px;
-    height: 700px;
-    
-    
+    height: 700px; 
 }
-
 .about_me .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 500px ;
-    
-    
-    
+    height: 500px ; 
 }
-
 .education .container {
     display: flex;
     flex-direction: column;
@@ -258,25 +132,14 @@ footer .container {
     font-size: 40px;
     margin-top: 5px;
     height: 500px ;
-    
-    
-    
 }
-
-
 .contact .container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
     height: 500px ;
-    
 }
-
-
 .contact {
-    
-
     background: rgba(236, 229, 202, 0.425);
     border-radius: 20px;
     margin-top: 5px;
@@ -284,19 +147,11 @@ footer .container {
     margin-top: -74px;
     height: 700px;
     padding-top: 100px;
-
 }
-
 .contact_link:hover {
     transition: 0.5s;
     color: rgb(255, 255, 255);
-
-
 }
-
-
-
-
 footer {
     background: rgba(110, 108, 98, 0.384);
     border-radius: 20px;
@@ -304,76 +159,49 @@ footer {
     font-family: Audiowide;
     color: azure;
 }
-
-
 .education {
     background: rgba(236, 229, 202, 0.247);
     border-radius: 20px;
     clip-path: polygon(0.00% 12.16%,66.11% 12.07%,79.42% 0.00%,91.88% 12.03%,100.00% 12.15%,100.00% 100.00%,91.88% 100%,79.48% 88.23%,66.07% 100%,0.00% 100%);
-    height: 800px;
-    margin-top: -80px;
-    padding-top: 100px;
+    height: 700px;
+    margin-top: -81px;
+    padding-top: 170px;
 }
-
-
 .pups {
-    height: 100px;
-    
+    height: 100px;  
 }
-
 .pups_2 {
     height: 100px;
     margin-top: 150px;
 }
-
-.pups_3{
-    margin-top: -480px;
-    margin-left: 1000px;
-    height: 500px;
+.pups_3{   
+    height: 400px;
 }
-
-
-
-
-
-
-
-
+.block_kontact {
+    display: flex;
+    justify-content: space-between;
+}
 .container {
     max-width: 1440px;
     margin:0 auto;
-    align-items: center
+    align-items: center;
+    padding: 0 40px 0 40px;
 }
 
 
-
-
-
-
-
-
-
 @media screen and (max-width: 450px){
-
-    
-    
-    
     .name_photo .container {
         flex-direction: column-reverse;
         margin-top: 40px;
         height: 400px;
             }
-    
             .name {
                 font-size: 35px;
-                border-bottom: 1px coral solid;
-                
+                border-bottom: 1px coral solid;   
             }
             .avatar {
-                width: 250px;
-                
+                width: 250px; 
              }
-
              .position {
                 font-size: 25px;
                 margin-top: -25px;
@@ -383,7 +211,6 @@ footer {
                 border: none;
                 margin-left: 5px;
             }
-
             h2 {
                 font-size: 40px;
                 font-weight: 200;
@@ -391,16 +218,13 @@ footer {
                 font-family: 'Bebas Neue', cursive;
                 border-bottom: 1px coral solid;
             }
-
             .me {
                 font-size: 20px;
                 text-indent: 40px;
                 text-align: justify;
                 width: 250px;
             }
-
             .menu {
-    
                 display: block;
                 position: absolute;
                 top: 23px;
@@ -412,107 +236,82 @@ footer {
                 background: rgb(0, 0, 0);
                 font-size: 30px;
             }
-
             .education_list li {
                 display: flex;
                 align-items: center;
                 margin-left: 0px;
             }
-
             .education_list {
                 font-size: 15px;
                 list-style: none;
                 padding: 0;
             }
-
-
             footer {
                 background: rgba(110, 108, 98, 0.384);
                 border-radius: 20px;
                 margin-top: 5px;
                 font-family: Audiowide;
-                color: azure;
-                
+                color: azure;    
             }
-
             footer .contact_link {
                 text-decoration: none;
                 color: black;
-                font-size: 27px;
-                
-                
+                font-size: 27px;    
             }
-
             .container .me_2 {
                 margin-left: 0px;
                 font-size: 20px;
-
             }
-
             .pups_3{
                 margin-top: -4px;
                 margin-left: 0px;
-                height: 150px;
+                height: 200px;
             }
-
-
+            .pups_2 {
+                height: 100px;
+                margin-top: 50px;
+            }
             .hiden_menu {
                 display: none;
                 margin-left: -40px;
                 list-style: none; 
             }
-
-
             .nutt {
                 height: 43.47px;
                 margin-top: 15px;
                 margin-left: 20px;
-
             }
-
             .header {
-   
-                background: rgba(110, 108, 98, 0.384);
-                
-                border-radius: 20px;
-                
-                height: 70px;
-
-                
+                background: rgba(110, 108, 98, 0.384);   
+                border-radius: 20px;  
+                height: 70px;    
             }
-
             .education {
                 background: rgba(236, 229, 202, 0.247);
                 border-radius: 20px;
-                clip-path: polygon(0.00% 12.16%,66.11% 12.07%,79.42% 0.00%,91.88% 12.03%,100.00% 12.15%,100.00% 100.00%,91.88% 100%,79.48% 88.23%,66.07% 100%,0.00% 100%);
-                height: 600px;
-                margin-top: -90px;
-                padding-top: 400px;
+                clip-path: none;
+                height: 500px;
+                margin-top: 5px;
+                padding-top: 20px;
             }
-
-
             .contact {
-    
-
                 background: rgba(236, 229, 202, 0.425);
                 border-radius: 20px;
                 margin-top: 5px;
-                clip-path: polygon(0.00% 12.16%,66.11% 12.07%,79.42% 0.00%,91.88% 12.03%,100.00% 12.15%,100.00% 100.00%,0.00% 100%);
-                margin-top: -100px;
-                height: 700px;
-                padding-top: 400px;
-            
+                clip-path: none;
+                padding-top: 20px;
+                height: 750px;
             }
-
-
-
-
-
-
-
+            .block_kontact {
+                display: flex;
+                justify-content: start;
+                flex-direction: column;
+            }
             .container {
                 max-width: 320px;
                 margin:0 auto;
                 align-items: center
     }
 }
+
+
