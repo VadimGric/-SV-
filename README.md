@@ -1,1 +1,1 @@
-https://vadimgric.github.io/JS-From-Zero-To-Hero-SV-/index
+https://vadimgric.github.io/JS-From-Zero-To-Hero-SV-/
